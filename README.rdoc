@@ -1,0 +1,27 @@
+= sanitize_params
+
+== Overview
+
+This is the sanitize_params plugin written by Jay Laney, updated to work with the Sanitizer module that is now part of the Rails core.
+
+== Description
+
+The original version of sanatize_params used Rick Olsen's white_list plugin, but as Rick pointed out some time ago, "I recently just refactored a lot of that code into the html tokenizer library.  You can now access the classes directly as HTML::Sanitizer, HTML::LinkSanitizer, and HTML::WhiteListSanitizer."
+
+This version of sanatize_params does exactly that. Otherwise, it is unchanged from Jay's original code designed for scrubbing your user input clean.
+
+== Installation
+
+script/plugin install git@github.com:sofer/sanitize_params.git 
+
+in application.rb:
+
+before_filter :sanitize_params
+
+Alternatively, add the filter to your controllers selectively.
+
+== Contact
+
+The original sanitize_params plugin was written by Jay Laney and is still available at http://code.google.com/p/sanitizeparams/
+
+This forked version was tweaked by Danny Sofer.

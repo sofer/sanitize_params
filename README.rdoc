@@ -6,9 +6,9 @@ This is the sanitize_params plugin written by Jay Laney, updated to work with th
 
 == Description
 
-The original version of sanatize_params used Rick Olsen's white_list plugin, but as Rick pointed out some time ago, "I recently just refactored a lot of that code into the html tokenizer library.  You can now access the classes directly as HTML::Sanitizer, HTML::LinkSanitizer, and HTML::WhiteListSanitizer."
+The original version of sanitize_params used Rick Olsen's white_list plugin, but as Rick pointed out some time ago, "I recently just refactored a lot of that code into the html tokenizer library.  You can now access the classes directly as HTML::Sanitizer, HTML::LinkSanitizer, and HTML::WhiteListSanitizer."
 
-This version of sanatize_params does exactly that. Otherwise, it is unchanged from Jay's original code designed for scrubbing your user input clean.
+This version of sanitize_params does exactly that. Otherwise, it is unchanged from Jay's original code designed for scrubbing your user input clean.
 
 == Installation
 

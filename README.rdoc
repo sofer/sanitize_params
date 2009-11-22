@@ -12,7 +12,7 @@ This version of sanitize_params does exactly that. Otherwise, it is unchanged fr
 
 == Installation
 
-script/plugin install git@github.com:sofer/sanitize_params.git 
+script/plugin install git://github.com/sofer/sanitize_params.git 
 
 in application.rb:
 
